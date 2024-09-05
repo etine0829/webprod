@@ -1,0 +1,238 @@
+/* body{
+    background-color: yellow;
+}
+
+ul{
+    list-style-type: none;
+    display: flex;
+    justify-content: center;
+}
+
+li{
+    padding:8px;
+    color:black;
+    padding:0px 30px 0px 30px;
+    font-weight :bold;
+}
+
+a:link { 
+    text-decoration: none; 
+} 
+
+a:visited { 
+    text-decoration: none; 
+} 
+  
+a:hover { 
+    text-decoration: none; 
+} 
+  
+a:active { 
+    text-decoration: none; 
+}
+
+nav{
+    top:0%;
+    width: 100%;
+    position: fixed;
+    display:flex;
+    justify-content: right;
+    background-color:orange;
+}
+
+.container{
+    padding: 22px;
+    margin:0 auto;
+    text-align: center;
+}
+
+.container ul li{
+    margin:0 10px;
+}
+
+.container ul a{
+    margin:8px;
+    padding:10px;
+    text-decoration: none;
+    transition: all 0.3s ease-out;
+}
+
+#home-1{
+    height: 100vh;
+    padding-top: 80px;
+    color:red;
+}
+
+#gallery-1{
+    height: 100vh;
+    padding-top: 80px;
+    color:blue;
+}
+#services-1{
+    height: 100vh;
+    padding-top: 80px;
+    color:violet;
+}
+#aboutus-1{
+    height: 100vh;
+    padding-top: 80px;
+    color:green;
+} */
+
+
+
+
+body {
+    font-family: Arial, sans-serif;
+}   
+
+.navbar {
+    padding: 10px 20px;
+    position:fixed;
+    top:0%;
+    width: 100%;
+    display:flex;
+    justify-content: right;
+    background-color:#0b0e29;
+}
+.navbar ul {
+    list-style: none;
+    display: flex;
+    justify-content: center;
+    margin-right:30px;
+}
+.navbar ul li {
+    margin: 0 15px;
+    transition: all 0.3s ease-out;
+}
+
+.navbar ul li a {
+    color: #ffffff;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.navbar ul li a:hover {
+    color: yellow;
+}
+
+.container {
+    padding: 50px;
+    text-align: center;
+    align-items:center;
+    justify-content:center;
+}
+
+#home {
+    height: 100vh;
+    padding-top: 80px;
+    font-size:30px;
+    font-family:Lucida Handwriting;
+    background-image: url('../img/resort.jpg');
+    background-size: cover;
+    background-position: center;
+}
+/* .tagline{
+    font-size:20px;
+    font-family:Arial; 
+    color:red;
+    font-weight:bold;
+    text-shadow: 0 0 3px black;
+    padding-top:200px;
+} */
+.greetings{
+    background-color: white;
+    padding:30px;
+    box-shadow: 5px 10px;   
+}
+.box{
+    padding: 60px;
+    border-radius: 10px;
+    display: inline-block;
+    color: red;
+}
+#about {
+    height: 100vh;
+    padding-top: 80px;
+    background-color:#9df9ef;
+}
+.about-content {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.aboutus {
+    flex: 1;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+}
+
+.about {
+    flex: 1;
+    max-width: 100%;
+    text-align: justify;
+    padding-left: 20px;
+}
+
+#rooms {
+    height: 100vh;
+    padding-top: 80px;
+    background-color:#ffa8B6;
+}
+
+#amenities {
+    height: 100vh;
+    padding-top: 80px; 
+    background-color:#ecbe47;
+}
+
+#contact {
+    height: 100vh;
+    padding-top: 80px;
+    color: #2d3436;
+}
+
+.room-list {
+    display: flex;
+    gap: 20px;
+}
+
+.room-item {
+    background-color: #f0f0f0;
+    padding: 20px;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.05);
+}
+
+.room-item h2 {
+    font-size: 1.5em;
+    margin-bottom: 10px;
+}
+
+.contact-list { 
+    display: flex;
+    gap: 20px;
+    justify-content:center; 
+    align-items:center;
+}
+
+.contact-item {
+    justify-content:center; 
+    align-items:center;
+    background-color: #f0f0f0;
+    padding: 50px;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.05);
+    bo
+}
+
+.contact-item h2 {
+    font-size: 1.5em;
+    margin-bottom: 10px;
+}
+
+.contact{
+    align-items: center;
+}

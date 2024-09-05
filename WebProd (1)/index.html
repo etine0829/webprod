@@ -1,0 +1,140 @@
+<!doctype html>
+<html>
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" type="image/x-icon" href="img/clogo.png">
+    <title>C's Paradise</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link href="https://fonts.googleapis.com/css2?family=Great+Vibes&display=swap" rel="stylesheet">
+
+</head>
+
+<body class="bg-gray-300 text-black">
+    <nav class="fixed w-screen bg-white shadow-md ">
+        <img src="img/clogo.png" alt="logo" class="fixed w-[50px] h-[50px]">
+        <div class="container mx-auto px-4 py-4 flex justify-end">
+            <!-- <a href="font-bold">Nike Shoes Shop and Apparel</a> -->
+            <ul class="flex space-x-8">
+            <ul class="hidden md:flex space-x-8">
+                <li class="cursor-pointer hover:text-yellow-900"><a href="#home">Home</a></li>
+                <li class="cursor-pointer hover:text-yellow-900"><a href="#aboutus">About Us</a></li>
+                <li class="cursor-pointer hover:text-yellow-900"><a href="#rooms">Rooms</a></li>
+                <li class="cursor-pointer hover:text-yellow-900"><a href="#services">Services</a></li>
+                <li class="cursor-pointer hover:text-yellow-900"><a href="#contact">Contact</a></li>
+            </ul>
+        </div>
+    </nav>
+
+    <section id="home" class="h-[100vh] flex items-center justify-center bg-cover bg-center"
+        style="background-image: url('img/resort.jpg');">
+        <div class="text-center pt-20">
+            <h1 class="text-white text-[8vw] font-bold"
+                style="font-family: 'Great Vibes', cursive; text-shadow: 2px 4px 6px rgba(0, 0, 0, 0.8);">
+                C 's Paradise
+            </h1>
+        </div>
+    </section>
+
+    <section id="aboutus" class="h-[100vh] items-center justify-center bg-orange-200">
+        <div class="text-center pt-10">
+            <h2 class="text-2xl font-bold mb-4 mt-8">C's Paradise</h2>
+        </div>
+        <div class="grid grid-cols-1 md:grid-cols-2 gap-4 px-8">
+            <div class="py-4">
+                <img src="img/aboutus.png" alt="aboutus" class="w-[700px] h-[450px]">
+            </div>
+            <div class="text-[16px] text-justify">
+                <p>
+                <p>
+                    Welcome to Resort Paradise, where unparalleled luxury meets ultimate relaxation. Located in the
+                    heart of the stunning [Location], our resort is a haven of comfort and sophistication. Each of our
+                    elegantly designed rooms and suites offers a serene retreat, complete with upscale amenities and
+                    breathtaking views. From the moment you arrive, you’ll experience attentive service that caters to
+                    your every need, ensuring a stay that is both indulgent and memorable.
+                </p>
+                <br>
+                <p>
+                    Relax by our sparkling pool, savor exquisite cuisine at our gourmet restaurant, or unwind with a
+                    rejuvenating treatment at our world-class spa. Our resort is designed to provide a seamless blend of
+                    opulence and tranquility, allowing you to escape from the everyday and immerse yourself in pure
+                    relaxation. Explore the natural beauty and cultural richness of [Location] with our curated
+                    activities and excursions.
+                </p>
+                <br>
+                <p>Whether you seek adventure or serenity, we offer tailored experiences that cater to your preferences.
+                    Our dedicated team is here to make every moment of your stay exceptional, from personalized service
+                    to thoughtful touches that enhance your comfort. At Resort Paradise, we are committed to creating a
+                    perfect escape that will leave you refreshed, inspired, and eager to return.
+                </p>
+            </div>
+        </div>
+    </section>
+
+    <section id="rooms" class="min-h-screen flex items-center justify-center bg-orange-200">
+        <div class="text-center pt-10 px-4">
+            <h2 class="text-2xl md:text-3xl font-bold mb-4 mt-8">Rooms and Suites</h2>
+            <div class="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-4 px-4 md:px-8">
+                <div class="bg-white px-6 py-6 sm:px-8 sm:py-8 rounded hover:bg-yellow-100 transition duration-300">
+                    <img src="img/deluxe.jpg" alt="deluxe" class="w-full h-auto object-cover">
+                    <h2 class="text-xl mt-2 font-bold">Deluxe Room</h2>
+                    <p class="mt-2">A luxurious room with a stunning view.</p>
+                </div>
+                <div class="bg-white px-6 py-6 sm:px-8 sm:py-8 rounded hover:bg-yellow-100 transition duration-300">
+                    <img src="img/family.jpg" alt="family" class="w-full h-auto object-cover">
+                    <h2 class="text-xl mt-2 font-bold">Family Suite</h2>
+                    <p class="mt-2">Spacious and comfortable for the entire family.</p>
+                </div>
+                <div class="bg-white px-6 py-6 sm:px-8 sm:py-8 rounded hover:bg-yellow-100 transition duration-300">
+                    <img src="img/beachfront.jpg" alt="beachfront" class="w-full h-auto object-cover">
+                    <h2 class="text-xl mt-2 font-bold">Beachfront Villa</h2>
+                    <p class="mt-2">Your private villa right on the beach.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+    
+
+    <section id="services" class="h-[100vh] bg-orange-200">
+        <div class="text-center pt-10 px-4">
+            <h2 class="text-2xl font-bold mt-8">Services</h2>
+            <p class="mb-4">Enjoy our world-class services, including a spa, swimming pool, fitness center, and gourmet
+                dining.</p>
+            <img src="img/amenities.gif" alt="amenities" class="mx-auto block w-[80%] md:w-[60%] h-auto">
+        </div>
+    </section>
+
+    <section id="contact" class="h-[90vh] items-center justify-center bg-orange-200">
+        <div class="text-center pt-20">
+            <h2 class="text-2xl font-bold mb-4 mt-8">Contact</h2>
+        </div>
+        <div class="grid grid-cols-1 md:grid-cols-4 gap-4 px-8 text-center">
+            <div class="bg-yellow-200 px-4 py-4 rounded hover:bg-yellow-100">
+                <img src="img/gmail.png" alt="gmail" class="mx-auto block mb-4 w-[10vw] h-auto">
+                <p class="font-bold">cparadise@gmail.com</p>
+            </div>
+            <div class="bg-yellow-200 px-4 py-4 rounded hover:bg-yellow-100">
+                <img src="img/instagram.png" alt="instagram" class="mx-auto block mb-4 w-[10vw] h-auto">
+                <p class="font-bold">@cparadise</p>
+            </div>
+            <div class="bg-yellow-200 px-4 py-4 rounded hover:bg-yellow-100">
+                <img src="img/facebook.png" alt="facebook" class="mx-auto block mb-4 w-[10vw] h-auto">
+                <p class="font-bold">cparadise</p>
+            </div>
+            <div class="bg-yellow-200 px-4 py-4 rounded hover:bg-yellow-100">
+                <img src="img/call.png" alt="call" class="mx-auto block mb-4 w-[10vw] h-auto">
+                <p class="font-bold">09123456789</p>
+            </div>
+        </div>
+    </section>
+
+    <footer class="bg-gray-800 text-white py-6">
+        <div class="container mx-auto text-center">
+            <p class="text-sm">&copy; 2024 C's Paradise. All rights reserved.</p>
+        </div>
+    </footer>
+
+</body>
+
+</html>
